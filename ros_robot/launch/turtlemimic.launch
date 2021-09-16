@@ -1,0 +1,4 @@
+<launch>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" /> 
+    <!-- <node name="code_py" pkg="ros_robot" type="turtle_go_straight.py" output="screen" />  -->
+</launch>

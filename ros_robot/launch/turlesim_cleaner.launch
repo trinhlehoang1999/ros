@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find ros_robot)/launch/turtlemimic.launch" />
+    <!-- <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />  -->
+    <param name="x_goal" value="3.0" />
+    <param name="y_goal" value="7.0" />
+    <node name="turtle_go_straight" pkg="ros_robot" type="turtle_go_straight.py" output="screen" /> 
+</launch>
